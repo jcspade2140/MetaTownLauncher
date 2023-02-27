@@ -109,6 +109,7 @@ public class Launcher : MonoBehaviour
             Process.Start(startInfo);
             versionTxt.text = "Opening1 .app";
 
+            /*
 
             System.Diagnostics.Process.Start(Path.Combine(rootPath, "MacOS"));
             versionTxt.text = "Opening2 .app";
@@ -117,7 +118,7 @@ public class Launcher : MonoBehaviour
             Process p = new Process();
             p.StartInfo.FileName = rootPath;
             versionTxt.text = "Opening3 .app";
-
+            */
 
             //Application.Quit();
 #endif

@@ -12,8 +12,8 @@ PlayerSettings:
   targetDevice: 2
   useOnDemandResources: 0
   accelerometerFrequency: 60
-  companyName: Xreate
-  productName: MetaTownLauncher
+  companyName: Ntek
+  productName: Launcher
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 1, g: 1, b: 1, a: 1}
@@ -88,7 +88,7 @@ PlayerSettings:
   deferSystemGesturesMode: 0
   hideHomeButton: 0
   submitAnalytics: 1
-  usePlayerLog: 1
+  usePlayerLog: 0
   bakeCollisionMeshes: 0
   forceSingleInstance: 0
   useFlipModelSwapchain: 1
@@ -101,7 +101,7 @@ PlayerSettings:
   xboxEnableKinect: 0
   xboxEnableKinectAutoTracking: 0
   xboxEnableFitness: 0
-  visibleInBackground: 1
+  visibleInBackground: 0
   allowFullscreenSwitch: 0
   fullscreenMode: 3
   xboxSpeechDB: 0
@@ -138,7 +138,7 @@ PlayerSettings:
     16:10: 1
     16:9: 1
     Others: 1
-  bundleVersion: 0.1
+  bundleVersion: 1.0.0
   preloadedAssets: []
   metroInputSource: 0
   wsaTransparentSwapchain: 0
@@ -159,7 +159,7 @@ PlayerSettings:
   androidSupportedAspectRatio: 1
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
-    Standalone: com.Xreate.MetaTownLauncher
+    Standalone: com.Ntek.Launcher
   buildNumber:
     Standalone: 0
     iPhone: 0
@@ -818,7 +818,7 @@ PlayerSettings:
   managedStrippingLevel: {}
   incrementalIl2cppBuild: {}
   suppressCommonWarnings: 1
-  allowUnsafeCode: 0
+  allowUnsafeCode: 1
   useDeterministicCompilation: 1
   enableRoslynAnalyzers: 1
   additionalIl2CppArgs: 
